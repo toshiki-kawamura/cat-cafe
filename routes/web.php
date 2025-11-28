@@ -40,3 +40,7 @@ Route::prefix('/admin')
             });
     });
 
+//設備ページ
+Route::get('/facilities',function(){
+    return view('facilities');
+})->name('facilities');
